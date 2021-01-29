@@ -1,0 +1,88 @@
+.profile{
+    background-color:#000;
+    border-radius: 15px;
+    width: 100%;
+    display: inline-block;
+    
+  }
+  .profile_grid{
+      padding: 30px !important;
+  }
+  
+  .profile_name{
+      padding: 20px;
+      line-height: 18px;
+      
+  }
+  
+  .profile_name .name{
+      font-size: 17px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: white;
+      
+  
+  }
+  
+  .profile_name .title {
+      background: radial-gradient(ellipse at center, #d6e2e4 50%, #000 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 15px;
+  }
+  
+  .profile_img{
+      padding-top: -10px;
+      -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+      clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+      
+  }
+  
+  .profile_img img{
+      width: 100%;
+  }
+  
+  .profile .profile_info{
+      color: #e9efffc9;
+      top:0;
+      left:0;
+      margin: -44px 10px 30px;
+  }
+  
+  .MuiTypography-body1{
+      display: flex;
+      text-align: start;
+      margin-top: -5px;
+  
+  }
+ .email_data,.skype_data,.Github_data{ 
+      margin-left: 3px;
+      display: flex;
+      font-size: 15px !important;
+  }
+  .location_data
+  {
+    display: flex;
+    font-size: 15px
+  }
+  
+  
+  .skype_icon,.outlook_icon{
+      font-size: 1.5rem;
+      width: 1em;
+  }
+  
+  .Github_icon{
+      color:rgb(243, 237, 237);
+  }
+  .Github_icon:hover,.skype_icon:hover,.outlook_icon:hover{
+          font-size: 1.7rem;
+  }
+  
+  
+  .profile .button_container{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }

@@ -1,0 +1,10 @@
+.blogpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.blogpage .working{
+    color: cadetblue;
+}
